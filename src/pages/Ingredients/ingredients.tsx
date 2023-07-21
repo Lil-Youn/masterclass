@@ -2,10 +2,12 @@ import { Grid, Typography } from "@mui/material";
 
 import CustomCard from "../../components/card";
 import ingredientItems from "./ingredient-data";
+import BackButton from "../../components/back-fab";
 
 function Ingredients() {
   return (
     <>
+      <BackButton />
       <Typography variant="h3">Ingredients</Typography>
       <br />
       <Grid container spacing={2}>
