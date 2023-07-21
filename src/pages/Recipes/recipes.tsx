@@ -1,6 +1,4 @@
-import { Avatar, Typography } from "@mui/material";
-
-import MasterclassLogo from "/src/assets/masterclass.jpg";
+import { Typography } from "@mui/material";
 
 function Recipes() {
   return (
