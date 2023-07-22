@@ -5,7 +5,9 @@ function Menu() {
   return (
     <>
       <Box sx={{ marginBottom: "20px" }}>
-        <Typography variant="h3">Menu</Typography>
+        <Typography variant="h3" style={{ fontFamily: "Sankyu" }}>
+          Menu
+        </Typography>
       </Box>
       <Box sx={{ margin: "20px" }}>
         <Typography variant="button">

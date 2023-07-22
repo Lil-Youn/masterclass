@@ -7,7 +7,9 @@ function Recipes() {
   return (
     <>
       <BackButton />
-      <Typography variant="h3">Recipes</Typography>
+      <Typography variant="h3" style={{ fontFamily: "Sankyu" }}>
+        Recipes
+      </Typography>
       <br />
       <Grid container spacing={2}>
         {recipeItems.map((item) => (

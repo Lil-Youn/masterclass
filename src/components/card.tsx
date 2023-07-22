@@ -37,7 +37,12 @@ const CustomCard = ({ image, title, description }: CustomCardProps) => {
         style={{ objectFit: "contain" }}
       />
       <CustomCardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          style={{ fontFamily: "Sankyu" }}
+        >
           {title}
         </Typography>
         <Typography
