@@ -13,7 +13,7 @@ const recipeItems = [
 
   {
     image: GurkenLogo,
-    title: "Gurke / Tahini / Chiliöl",
+    title: "Gurke / Tahini / Chilioel",
     description:
       " Zutaten:\n Gurken\n Knoblauch\n Tahini\n Sesamöl\n Limettensaft\n Chiliöl\n gerösteter Sesam\n\n Gurken vierteln und leicht salzen, mit gehacktem Knoblauch, etwas Reisessig und Sesamöl in einem Beutel geben und leicht kneten.\n Für die Sauce Tahini mit Limettensaft, Salz, Pfeffer, etwas Sesamöl und einem kleinein Schluck Wasser ordentlich Mixen bis die Konsitenz stimmt.\n Gurken auf einem Teller anrichten, etwas von der Sauce drüber geben und mit Chiliöl und geröstetem Sesam garnieren.",
   },
