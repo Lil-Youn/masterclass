@@ -4,8 +4,8 @@ import MenuBookIcon from "@mui/icons-material/MenuBook";
 import Box from "@mui/material/Box";
 import SpeedDial from "@mui/material/SpeedDial";
 import SpeedDialAction from "@mui/material/SpeedDialAction";
-import { useNavigate } from "react-router-dom"; // Assuming you are using React Router for routing
-
+import { To, useNavigate } from "react-router-dom";
+import "./speedDialStyles.css";
 const actions = [
   {
     icon: <FormatListNumberedIcon />,
@@ -18,7 +18,7 @@ const actions = [
 export default function BasicSpeedDial() {
   const navigate = useNavigate();
 
-  const handleSpeedDialActionClick = (link: string) => {
+  const handleSpeedDialActionClick = (link: To) => {
     navigate(link);
   };
 
@@ -26,7 +26,12 @@ export default function BasicSpeedDial() {
     <Box sx={{ height: 250, transform: "translateZ(0px)", flexGrow: 1 }}>
       <SpeedDial
         ariaLabel="SpeedDial basic example"
-        sx={{ position: "absolute", bottom: 16, right: 16 }}
+        sx={{
+          position: "absolute",
+          bottom: 16,
+          right: 16,
+          animation: "pulsate 2.5s infinite",
+        }}
         icon={<LocalDiningIcon />}
       >
         {actions.map((action) => (
