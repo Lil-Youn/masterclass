@@ -1,24 +1,28 @@
-import { Box, Typography } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import BasicSpeedDial from "../../components/speed-dial";
 
 function Menu() {
   return (
     <>
-      <Box>
+      <Box sx={{ marginBottom: "20px" }}>
         <Typography variant="h3">Menu</Typography>
-        <br />
+      </Box>
+      <Box sx={{ margin: "20px" }}>
         <Typography variant="button">
           - ☀️ Summer Rolls / Sriracha Mayo / Kräuter
         </Typography>
-        <br />
+      </Box>
+      <Box sx={{ margin: "20px" }}>
         <Typography variant="button">
           - 🥒 Geklopfte Gurke / Tahini / Chiliöl
         </Typography>
-        <br />
+      </Box>
+      <Box sx={{ margin: "20px" }}>
         <Typography variant="button">
           - 🐓 Chicken Larb (Gai) / Sushi Reis / Limette / Chili / Koriander
         </Typography>
-        <br />
+      </Box>
+      <Box>
         <Typography variant="button">
           - 🥥 Kokos Tapioka / Mango / Beeren
         </Typography>
