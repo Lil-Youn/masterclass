@@ -60,13 +60,13 @@ const ingredientItems = [
   },
   {
     image: ChiliÖlLogo,
-    title: "Chiliöl",
+    title: "Chilioel",
     description:
       "Chiliöl ist ein Öl, das mit Chilischoten aromatisiert wurde. Es wird in der asiatischen Küche verwendet, um Gerichten eine scharfe Note zu verleihen.",
   },
   {
     image: ChickenLogo,
-    title: "Ausgelöste Hähnchenkeule",
+    title: "Ausgeloeste Haehnchenkeule",
     description:
       "Eine ausgelöste Hähnchenkeule ist ein Hühnerbein, bei dem der Knochen entfernt wurde, um nur das Fleisch zu erhalten. Dies erleichtert das Kochen und Essen, da man das Fleisch leichter würzen und auf verschiedene Arten zubereiten kann. Das ausgelöste Fleisch behält seinen vollen Geschmack und Saftigkeit.",
   },
@@ -93,7 +93,7 @@ const ingredientItems = [
 
   {
     image: SesamölLogo,
-    title: "Sesamöl",
+    title: "Sesamoel",
     description:
       "Sesamöl ist ein Öl, das aus gerösteten Sesamsamen gewonnen wird. Es wird in der asiatischen Küche verwendet, um Gerichten eine nussige Note zu verleihen.",
   },
