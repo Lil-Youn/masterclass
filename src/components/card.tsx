@@ -40,7 +40,11 @@ const CustomCard = ({ image, title, description }: CustomCardProps) => {
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          style={{ whiteSpace: "pre-line" }}
+        >
           {description}
         </Typography>
       </CustomCardContent>
